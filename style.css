@@ -1,0 +1,44 @@
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    border-color: black;
+    background-color: rgb(165, 106, 42);
+    font-weight: bold;
+    color: black;
+    margin-bottom: 30px;
+}
+
+#actual{
+    background-color: rgb(33, 101, 9);
+}
+
+.panelSuperior{
+    background-color: #ffffff;
+    width: 280px;
+}
+
+.registro{
+    background-color: #ffffff;
+    width: 280px;
+
+}
+
+#boton{
+    background-color: rgb(78, 113, 252);
+    color: #ffffff;
+    position: absolute;
+    left: 200px;
+    top: 360px;
+    height: 30px;
+}   
+
+.input{
+    width: 250px;
+    height: 50px;
+}
+
+.cuadro{
+    background-color: rgba(102, 111, 111, 0.945);
+    width: 300px;
+    padding: 10px;
+}

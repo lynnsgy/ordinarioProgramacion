@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     
@@ -11,26 +12,28 @@
         <th><a href="./inicio.html">Inicio</a></th>
         <th><a href="./conocenos.html">Conócenos</a></th>
         <th><a href="./productos.html">Productos</a></th>
-        <th><a href="./registro.html">Registro</a></th>
+        <th id="actual"><a href="./registro.html">Registro</a></th>
         <th><a href="./contacto.html">Contacto</a></th>
     </table>
 
+    <div class="cuadro">
     <div class="panelSuperior">
-        <table border="1">
+        <table>
             <th>Registrarse en este sitio</th>
         </table>
     </div>
 
     <div class="registro">
         <br> <label for="nombreUsuario" id="nombre">Nombre de usuario</label> <br>
-        <input type="text" id="nombre"> <br>
+        <input type="text" id="nombre" class="input"> <br>
 
         <label for="correoElectronico" id="correo">Correo electrónico</label> <br>
-        <input type="email" id="correo"> <br>
+        <input type="text" id="correo" class="input"> <br>
 
-        <p>Se te enviará una confirmación de registro por correo electrónico.</p> <br>
+        <p>Se te enviará una confirmación del registro por correo electrónico.</p> <br> <br>
 
         <input type="button" value="Registrarse" id="boton">
+    </div>
     </div>
 
 
